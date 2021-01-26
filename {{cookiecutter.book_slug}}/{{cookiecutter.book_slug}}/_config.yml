@@ -1,0 +1,8 @@
+# More info: https://jupyterbook.org/customize/config.html.
+
+#######################################################################################
+# Book settings
+title: {{ cookiecutter.book_name }}
+author: {{ cookiecutter.author_name }}
+logo: "logo.png"
+copyright: "{% now 'local', '%Y' %}"

@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter-book = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+serve = "python -m http.server 8000 --bind 127.0.0.1 --directory {{ cookiecutter.book_slug }}/_build/html/"
