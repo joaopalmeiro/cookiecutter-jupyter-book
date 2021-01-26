@@ -9,7 +9,6 @@ copyright: "{% now 'local', '%Y' %}"
 #######################################################################################
 # HTML-specific settings
 html:
-  home_page_in_navbar: false
   favicon: "favicon.svg"
 
 #######################################################################################
@@ -18,3 +17,6 @@ sphinx:
   config:
     html_theme_options:
       search_bar_text: "Search"
+      extra_navbar: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+      home_page_in_toc: false
+    language: en
