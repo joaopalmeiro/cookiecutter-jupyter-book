@@ -46,7 +46,7 @@ html_theme_options = {
 
 If this key (`html_theme_options`) is in the `_config.yml` file, the default values are as follows ([source](https://github.com/executablebooks/sphinx-book-theme/blob/master/sphinx_book_theme/theme.conf)):
 
-```conf
+```
 single_page = False
 expand_toc_sections = []
 path_to_docs =
