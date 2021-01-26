@@ -4,5 +4,10 @@
 # Book settings
 title: {{ cookiecutter.book_name }}
 author: {{ cookiecutter.author_name }}
-logo: "logo.png"
 copyright: "{% now 'local', '%Y' %}"
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar: false
+  favicon: "favicon.svg"
