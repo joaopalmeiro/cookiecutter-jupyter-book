@@ -3,5 +3,6 @@
   "github_username": "{{ cookiecutter.author_name.lower().replace(' ', '').replace('ã', 'a') }}",
   "book_name": "my-book",
   "book_slug": "{{ cookiecutter.book_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "book_short_description": "A simple Jupyter Book."
+  "book_short_description": "A simple Jupyter Book.",
+  "favicon_emoji": "📓"
 }
