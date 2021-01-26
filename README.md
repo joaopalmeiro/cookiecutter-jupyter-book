@@ -2,6 +2,10 @@
 
 A minimal [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for bootstrapping [Jupyter Book](http://jupyterbook.org/) projects.
 
+## Quickstart
+
+1. `cookiecutter https://github.com/joaopalmeiro/cookiecutter-jupyter-book.git`
+
 ## Notes
 
 - Run `touch Pipfile` first in a subdirectory to create a new environment in that subdirectory.
