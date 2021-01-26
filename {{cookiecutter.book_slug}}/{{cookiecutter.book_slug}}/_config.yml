@@ -11,3 +11,10 @@ copyright: "{% now 'local', '%Y' %}"
 html:
   home_page_in_navbar: false
   favicon: "favicon.svg"
+
+#######################################################################################
+# Advanced and power-user settings
+sphinx:
+  config:
+    html_theme_options:
+      search_bar_text: "Search"
