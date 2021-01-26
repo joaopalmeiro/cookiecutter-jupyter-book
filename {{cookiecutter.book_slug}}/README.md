@@ -43,3 +43,23 @@ html_theme_options = {
     "use_issues_button": False,
 }
 ```
+
+If this key (`html_theme_options`) is in the `_config.yml` file, the default values are as follows ([source](https://github.com/executablebooks/sphinx-book-theme/blob/master/sphinx_book_theme/theme.conf)):
+
+```conf
+single_page = False
+expand_toc_sections = []
+path_to_docs =
+repository_url =
+repository_branch =
+launch_buttons = {}
+home_page_in_toc = False
+navbar_footer_text =
+extra_navbar = Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+extra_footer =
+use_issues_button = False
+use_download_button = True
+use_repository_button = False
+theme_dev_mode = False
+show_navbar_depth = 1
+```
