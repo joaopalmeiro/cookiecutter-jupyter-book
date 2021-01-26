@@ -1,0 +1,13 @@
+:root {
+  --light-gray: #e2e8f0;
+}
+
+/* Top right icons (approximately) */
+.topbar .topbar-main button.topbarbtn {
+  color: var(--light-gray);
+}
+
+/* Top left icons (approximately) */
+#navbar-toggler {
+  color: var(--light-gray);
+}
