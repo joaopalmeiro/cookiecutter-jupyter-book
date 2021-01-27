@@ -16,3 +16,4 @@ A minimal [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template 
 - Support for [SVG favicons](https://caniuse.com/link-icon-svg).
 - Chris Coyier's "[Emojis as Favicons](https://css-tricks.com/emojis-as-favicons/)" blog post.
 - Lars Wittenberg's [tweet](https://twitter.com/larswittenberg/status/1242465247987810304).
+- Chris Coyier's "[Finally, it Will Be Easy to Change the Color of List Bullets](https://css-tricks.com/finally-it-will-be-easy-to-change-the-color-of-list-bullets/)" blog post.

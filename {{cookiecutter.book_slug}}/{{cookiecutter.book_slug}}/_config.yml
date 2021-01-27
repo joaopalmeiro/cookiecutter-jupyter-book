@@ -6,10 +6,14 @@ title: {{ cookiecutter.book_name }}
 author: {{ cookiecutter.author_name }}
 copyright: "{% now 'local', '%Y' %}"
 
+# Just the logo in the upper left corner
+# title: ""
+# logo: logo.png
+
 #######################################################################################
 # HTML-specific settings
 html:
-  favicon: "favicon.svg"
+  favicon: favicon.svg
 
 #######################################################################################
 # Advanced and power-user settings
