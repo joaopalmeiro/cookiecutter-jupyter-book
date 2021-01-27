@@ -6,8 +6,9 @@
 
 ## Creating a virtual environment
 
-1. `pipenv run --python 3.8`
-2. `pipenv shell`
+1. Install [Pipenv](https://github.com/pypa/pipenv)
+2. `pipenv run --python 3.8`
+3. `pipenv shell`
 
 ## Building a Jupyter Book
 

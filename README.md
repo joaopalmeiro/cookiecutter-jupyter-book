@@ -4,7 +4,8 @@ A minimal [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template 
 
 ## Quickstart
 
-1. `cookiecutter https://github.com/joaopalmeiro/cookiecutter-jupyter-book.git`
+1. Install [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
+2. `cookiecutter https://github.com/joaopalmeiro/cookiecutter-jupyter-book.git`
 
 ## Notes
 
@@ -12,6 +13,7 @@ A minimal [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template 
 
 ## References
 
+- Executable Book Project's `[cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book)` Cookiecutter template.
 - Connor's [answer](https://stackoverflow.com/a/55435460) on Stack Overflow.
 - Support for [SVG favicons](https://caniuse.com/link-icon-svg).
 - Chris Coyier's "[Emojis as Favicons](https://css-tricks.com/emojis-as-favicons/)" blog post.
