@@ -52,3 +52,8 @@ li {
   /* Query text */
   color: var(--black);
 }
+
+/* Glossary terms */
+dt {
+  color: var(--black);
+}
