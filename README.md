@@ -1,6 +1,6 @@
 # cookiecutter-jupyter-book
 
-A minimal [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for bootstrapping [Jupyter Book](http://jupyterbook.org/) projects.
+A minimal and opinionated [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for bootstrapping [Jupyter Book](http://jupyterbook.org/) projects. It is based on the [`cookiecutter-jupyter-book`](https://github.com/executablebooks/cookiecutter-jupyter-book) template.
 
 ## Quickstart
 
