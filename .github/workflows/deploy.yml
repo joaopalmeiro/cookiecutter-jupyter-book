@@ -40,7 +40,8 @@ jobs:
         working-directory: ./my_book
       - name: Build book
         run: |
-          pipenv run jb build my_book/my_book/
+          pipenv run jupyter-book build my_book/
+        working-directory: ./my_book
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
