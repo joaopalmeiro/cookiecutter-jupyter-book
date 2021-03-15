@@ -1,3 +1,4 @@
 # Ignore all YAML files
 *.yml
 *.yaml
+!.github/workflows/deploy.yml

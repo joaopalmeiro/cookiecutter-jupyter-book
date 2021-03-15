@@ -10,6 +10,16 @@ A minimal and opinionated [Cookiecutter](https://github.com/cookiecutter/cookiec
 ## Notes
 
 - Run `touch Pipfile` first in a subdirectory to create a new environment in that subdirectory.
+- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages).
+- [actions/cache](https://github.com/actions/cache):
+  - [Pipenv](https://github.com/actions/cache/blob/main/examples.md#python---pipenv).
+  - [Documentation](https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows):
+    - `restore-keys` (optional): "An ordered list of alternative keys to use for finding the cache if no cache hit occurred for key."
+    - "This example creates a new cache when the packages in `package-lock.json` file change, or when the runner's operating system changes ([both are used to define the `key`]). (...) Using expressions to create a `key` allows you to automatically create a new cache when dependencies have changed."
+- Ian Whitestone's [Serverless Python deployments with Github Actions](https://ianwhitestone.work/aws-serverless-deployments-with-github-actions/) blog post:
+  - "(...) each `run` keyword represents a new process and shell in the runner environment, so things like environment variables or locally defined variables won't persist between runs."
+  - Any of the files in the X directory: `- X/**`.
+  - `Pipfile` or `Pipfile.lock`: `- Pipfile*`.
 
 ## References
 
