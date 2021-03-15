@@ -1,0 +1,59 @@
+:root {
+  --light-gray: #e2e8f0;
+  --black: #44475a;
+}
+
+/* Top right icons (approximately) */
+.topbar .topbar-main button.topbarbtn {
+  color: var(--light-gray);
+}
+
+/* Top left icons (approximately) */
+#navbar-toggler {
+  color: var(--light-gray);
+}
+
+/* Titles and subtitles */
+main.bd-content #main-content h1,
+main.bd-content #main-content h2,
+main.bd-content #main-content h3,
+main.bd-content #main-content h4,
+main.bd-content #main-content h5 {
+  color: var(--black);
+}
+
+/* Title in the upper left corner */
+.bd-sidebar h1.site-logo {
+  color: var(--black);
+}
+
+/* Footer text and paragraphs */
+p {
+  color: var(--black);
+}
+
+/* List bullets */
+li {
+  color: var(--black);
+}
+
+/* Search bar placeholder text */
+.form-control::placeholder {
+  color: var(--light-gray);
+}
+
+/* Search bar icon */
+.bd-search .icon {
+  color: var(--light-gray);
+}
+
+/* Search bar */
+.form-control {
+  /* Query text */
+  color: var(--black);
+}
+
+/* Glossary terms */
+dt {
+  color: var(--black);
+}
