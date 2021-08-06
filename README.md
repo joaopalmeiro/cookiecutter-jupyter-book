@@ -7,6 +7,12 @@ A minimal and opinionated [Cookiecutter](https://github.com/cookiecutter/cookiec
 1. Install [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
 2. `cookiecutter https://github.com/joaopalmeiro/cookiecutter-jupyter-book.git`
 
+## Development
+
+- `pipenv install --dev --python 3.8`
+- `pipenv shell`
+- `pytest`
+
 ## Notes
 
 - Run `touch Pipfile` first in a subdirectory to create a new environment in that subdirectory.
@@ -20,6 +26,13 @@ A minimal and opinionated [Cookiecutter](https://github.com/cookiecutter/cookiec
   - "(...) each `run` keyword represents a new process and shell in the runner environment, so things like environment variables or locally defined variables won't persist between runs."
   - Any of the files in the X directory: `- X/**`.
   - `Pipfile` or `Pipfile.lock`: `- Pipfile*`.
+- [pytest-cookies](https://github.com/hackebrot/pytest-cookies):
+  - pytest plugin for Cookiecutter templates.
+  - `pipenv install --dev pytest pytest-cookies`.
+  - `pytest --keep-baked-projects --basetemp=.cookiecutter_projects` (keep the generated projects for testing) or `pytest --keep-baked-projects` + `cd $TMPDIR`.
+  - [cookiecutter-django](https://github.com/pydanny/cookiecutter-django) is a reference.
+  - It is possible to specify the template directory ([source](https://github.com/hackebrot/pytest-cookies#specify-the-template-directory)).
+- `pipenv --rm`.
 
 ## References
 

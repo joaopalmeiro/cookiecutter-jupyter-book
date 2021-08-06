@@ -7,6 +7,8 @@ name = "pypi"
 cookiecutter = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-cookies = "*"
 
 [requires]
 python_version = "3.8"
